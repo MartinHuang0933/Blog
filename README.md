@@ -3,8 +3,9 @@
 # 文章列表
 
 ## 依時間排序
+「職場學習」系統性思考與 Top Down思維
 
-
+`2019-09-19`  [「職場學習」系統性思考與 Top Down思維 ](https://github.com/MartinHuang0933/Blog/issues/8)  
 `2019-09-19`  [「HPX」讀書會來的人總是不多嗎？可能是你沒有掌握到「選書」的小竅門](https://github.com/MartinHuang0933/Blog/issues/7)  
 `2019-05-18`  [「iOS」透過UIActivityViewController分享多個PDF檔案](https://github.com/MartinHuang0933/Blog/issues/5)  
 `2019-04-16`  [「HPX」演講 - 核心概念](https://github.com/MartinHuang0933/Blog/issues/6)  
@@ -24,6 +25,7 @@
 `2019-02-23`  [「iOS」已於Project禁止旋轉，但iPad還是可以旋轉](https://github.com/MartinHuang0933/Blog/issues/2)
 
 ### 持續學習
+`2019-09-19`  [「職場學習」系統性思考與 Top Down思維 ](https://github.com/MartinHuang0933/Blog/issues/8)  
 `2019-09-19`  [「HPX」讀書會來的人總是不多嗎？可能是你沒有掌握到「選書」的小竅門](https://github.com/MartinHuang0933/Blog/issues/7)  
 `2019-04-16`  [「HPX」演講 - 核心概念](https://github.com/MartinHuang0933/Blog/issues/6)  
 `2019-04-08`  [「持續學習」如何為頓悟做好準備](https://github.com/MartinHuang0933/Blog/issues/4)  
