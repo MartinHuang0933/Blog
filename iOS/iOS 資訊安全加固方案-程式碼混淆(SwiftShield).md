@@ -62,7 +62,7 @@ $ sudo chmod -R 774 [專案路徑]
 ```
 4. [官方文件](https://github.com/rockbruno/swiftshield/blob/master/USAGE.md)有提到，如果有使用到會修改文件的第三方框架，如：`R.Swift`、`SwiftGen`，需在專案中的 `TARGETS -> Build Phases -> Run Script` 修改指令，這裡以 `R.Swift` 為範例：
 
-![](https://i.imgur.com/2jheJ7C.png =500x)
+![](https://i.imgur.com/2jheJ7C.png)
 
 ```bash=
 # 原本的 Run Script
