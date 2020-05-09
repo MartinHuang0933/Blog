@@ -29,6 +29,7 @@ tags: 閱讀計畫
 `2019-02-23`  [「iOS」已於Project禁止旋轉，但iPad還是可以旋轉](https://github.com/MartinHuang0933/Blog/issues/2)
 
 ### 持續學習
+`2020-04-09`  [「選 3 哲學 - 不平衡才能真正的平衡.md 」](https://github.com/MartinHuang0933/Blog/blob/master/Reading/%E9%81%B83%E5%93%B2%E5%AD%B8-%E4%B8%8D%E5%B9%B3%E8%A1%A1%E6%89%8D%E8%83%BD%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%B9%B3%E8%A1%A1.md)  
 `2019-10-06`  [「職場學習」系統性思考與 Top Down思維 ](https://github.com/MartinHuang0933/Blog/issues/8)  
 `2019-09-19`  [「HPX」讀書會來的人總是不多嗎？可能是你沒有掌握到「選書」的小竅門](https://github.com/MartinHuang0933/Blog/issues/7)  
 `2019-04-16`  [「HPX」演講 - 核心概念](https://github.com/MartinHuang0933/Blog/issues/6)  
