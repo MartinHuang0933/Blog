@@ -5,10 +5,10 @@ tags: iOS
 # 「iOS」Singleton Design Pattern 單例設計模式
 
 
-## 什麼是Singleton？  
+## 什麼是Singleton？
 
 在許多物件導向設計的程式語言中，單例設計模式非常常見，而他的實際效益就是可以確保在整個應用程式中只會有一個實體，且生命週期也跟應用程式相同，在應用程式啟動時就會自動幫我們建立了。
-在iOS開發學習的過程中也許你已經用了許多Singleton的物件了，只是你還不知道而已，例如：UIColor、FileManager等等。
+在iOS開發學習的過程中也許你已經用了許多Singleton的物件了，只是你還不知道而已，例如：UIColor、FileManager等等。 
 
 ## Singleton 會用在哪些場合？
 
