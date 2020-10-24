@@ -21,7 +21,7 @@ Singleton因為具有唯一性，所以通常會用於：
 建立Singleton最基礎的寫法就是判斷實體是不是為空值，如果是空值就會直接建立。
 在建立時需要注意執行緒衝突，所以我們需要多加上執行緒的安全機制，實際程式碼如下。
 
-```objectivec=
+```Objective-C
 // Objective-C 版本
 + (instancetype)shareManager{
     @synchronized(self){
@@ -33,7 +33,7 @@ Singleton因為具有唯一性，所以通常會用於：
 }
 ```
 也可以透過GCD的方式建立
-```objectivec=
+```Objective-C
 // Objective-C 版本 , 使用GCD
 static DataManager *manager = nil;
 
@@ -50,7 +50,8 @@ static DataManager *manager = nil;
 ```
 
 此時Singleton就已經寫好了，只要我們在外面呼叫shareManager這個方法，返回的實體始終是一個，因為dispatch_once只執行一次。
-```objectivec=
+
+```Objective-C
 // Objective-C 版本 , 呼叫 Singleton
 {
     [DataManager shareManager];
