@@ -7,6 +7,8 @@ tags: iOS
 
 在iOS開發中，幾乎所有頁面都會使用Autolayout的方式去排版，而在設定完LayoutConstraints後，有時會在Runtime出現一些Error log，雖然不一定會影響顯示出來的排版，但有報錯基本上就要修正。
 
+
+
 ## Error Log
 ```javascript=
 [LayoutConstraints] Unable to simultaneously satisfy constraints.
@@ -80,7 +82,7 @@ UIImageView:0x7fe97b4671d0.leading == UIButton:0x7fe97b466f20.trailing + 8>
 
 ## 總結
 
-以前在初學的時候，遇到這個問題總是很頭痛，有一種大海撈針的感覺。
+以前在初學的時候，遇到這個問題總是很頭痛，有一種大海撈針的感覺。  
 而現在透過Xcdoe內建的Debug View Hierarchy就可以很快速的找到特定的元件，有時也可以查看UI元件的排版是不是有誤，真的是很方便很多。
 
 
