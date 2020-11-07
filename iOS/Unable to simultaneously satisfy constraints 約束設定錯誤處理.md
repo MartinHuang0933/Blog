@@ -53,7 +53,7 @@ Xcode其實提供了一個很方便的Debug功能，可以幫助我們迅速地�
 
 #### **STEP 2：** 點選 Xcode 下方的 Debug View Hierarchy
 
-![](https://i.imgur.com/5er5pnq.png =530x)
+![](https://i.imgur.com/5er5pnq.png =530x550)
   
   這時候你會看到整個App所有View的結構，是不是很方便呢
   
