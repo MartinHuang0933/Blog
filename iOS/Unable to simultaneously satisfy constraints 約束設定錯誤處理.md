@@ -27,13 +27,13 @@ Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch th
 The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
 ```
 
-### 什麼情況會出現這個錯誤？
+## 什麼情況會出現這個錯誤？
 
 一般來說，出現這種警告有兩種情況：  
 1. 使用xib的內建View，對其中子元件增加了Autolayout約束，在使用xib後又調整了View的框架
 2. 純Code的方式使用Autolayout，但沒有對使用的`ViewAutoresizingMaskIntoConstraints`的屬性設置為false。
 
-### 如何快速找出有問題的元件？
+## 如何快速找出有問題的元件？
 
 其實在Error log中有給出很明錯錯誤的地方，那就是在log中`Will attempt to recover by breaking constraint`的下一行，就是我們要尋找的約束。  
 
@@ -47,11 +47,11 @@ Will attempt to recover by breaking constraint
 
 Xcode其實提供了一個很方便的Debug功能，可以幫助我們迅速地找到錯誤的約束，而我們要使用的就是Xcode內建的[**Debug View Hierarchy**](https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/ExaminingtheViewHierarchy.html)。
 
-### 使用Debug View Hierarchy找出元件
+## 使用Debug View Hierarchy找出元件
 
-#### **STEP 1：** 執行App
+### **STEP 1：** 執行App
 
-#### **STEP 2：** 點選 Xcode 下方的 Debug View Hierarchy
+### **STEP 2：** 點選 Xcode 下方的 Debug View Hierarchy
 
 ![](https://i.imgur.com/5er5pnq.png)
   
@@ -60,7 +60,7 @@ Xcode其實提供了一個很方便的Debug功能，可以幫助我們迅速地�
   ![](https://i.imgur.com/PYieUlW.gif)
 
   
-#### **STEP 3：** 找出錯誤約束的實體位址
+### **STEP 3：** 找出錯誤約束的實體位址
 
 還記得剛剛我們有特別找出錯誤的約束嗎？
 ```javascript=
@@ -71,14 +71,14 @@ UIImageView:0x7fe97b4671d0.leading == UIButton:0x7fe97b466f20.trailing + 8>
 ```
 而我們要找的就是第3行的部分，將NSLayoutConstraint的實體位址`0x600001baebc0`複製起來。
 
-#### **STEP 4：** 用實體位址去找出錯誤的約束在哪裡
+### **STEP 4：** 用實體位址去找出錯誤的約束在哪裡
 
 接著我們去左邊Debug navigator搜尋，並以剛剛的`0x600001baebc0`過濾元件，這時候就可以很快速的找到出錯的約束了。
 
 ![](https://i.imgur.com/W9FnCht.png)
 
 
-### 總結
+## 總結
 
 以前在初學的時候，遇到這個問題總是很頭痛，有一種大海撈針的感覺。
 而現在透過Xcdoe內建的Debug View Hierarchy就可以很快速的找到特定的元件，有時也可以查看UI元件的排版是不是有誤，真的是很方便很多。
