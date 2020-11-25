@@ -9,7 +9,7 @@
 
 Lazy load 可以讓你可以不必關心變數創建的時機，等到真正使用到變數時才去建立，同時也可以保證在使用時一定是被初始化過的狀態，提高記憶體使用效率。  
 
-### Objective-C 
+### Objective-C 寫法
 ```javascript=
 // in @interface
 @property (nonatomic, weak) UIButton *registerBtn;
