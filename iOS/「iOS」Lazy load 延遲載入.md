@@ -9,7 +9,7 @@
 
 Lazy load 可以讓你可以不必關心變數創建的時機，等到真正使用到變數時才去建立，同時也可以保證在使用時一定是被初始化過的狀態，提高記憶體使用效率。  
 
-#### Objective-C 
+### Objective-C 
 ```javascript=
 // in @interface
 @property (nonatomic, weak) UIButton *registerBtn;
@@ -31,7 +31,7 @@ Lazy load 可以讓你可以不必關心變數創建的時機，等到真正使�
 
 ```
 
-#### Objective-C 實作原理、注意事項
+### Objective-C 實作原理、注意事項
 
 > 透過 Override 物件的 getter 方法，在 getter 方法裡面去判斷物件是否存在。  
 > 若物件不存在 == nil 時則進行物件的初始化，那如果物件已經存在了，則直接return已經初始化完畢的物件。  
@@ -41,7 +41,7 @@ Lazy load 可以讓你可以不必關心變數創建的時機，等到真正使�
 
 ---
 
-#### Swift 寫法
+### Swift 寫法
 ```javascript=
 // 若不進行特殊的初始化，非常簡單，只要前方加上lazy就好
 lazy var dataSource = UIButton()
@@ -55,7 +55,7 @@ lazy var registerBtn: UIButton = {
 }()
 ```
 
-#### Swift 實作原理、注意事項
+### Swift 實作原理、注意事項
 
 >在 Swift 中 Lazy load 只能用 var 來宣告，因為 let 常數必須在宣告的時候就賦值。  
 
