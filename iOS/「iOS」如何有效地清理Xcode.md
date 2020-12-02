@@ -23,18 +23,23 @@ tags: iOS , Xcode , IDE
 **刪除方法：** 直接刪除iOS版本即可，如`14.2 (18B92)`  
 **備註：** 以實機開發時，每一台設備的版本被都會儲存起來，如果你用許多不同的iOS的版本在測試，那使用空間就會很可觀
 
-## 3. Archives & .ipa file
+## 3. Simulator devices
+**用途：** 模擬器版本  
+**位置：** ~/Library/Developer/CoreSimulator/Devices  
+**刪除方法：** 至終端機下指令`xcrun simctl delete unavailable`  
+
+## 4. Archives & .ipa file
 **用途：** 每次打包專案時都會產生，用來提交 App Store 或是TestFlight 等等  
 **位置：** ~/Library/Developer/Xcode/Archives  
 **刪除方法：** 直接刪除即可  
 **備註：** 若為已上線之產品，建議預留最後3-5個的版本
 
-## 4. Logs
+## 5. Logs
 **用途：** 就，Log  
 **位置：** ~/Library/Developer/Xcode/iOS Device Logs  
 **刪除方法：** 直接刪除 `iOS Device Logs` 內所有檔案即可  
 
-## 5. Others cache
+## 6. Others cache
 **用途：** 整個資源庫的快取  
 **位置：** ~/Library/Caches/  
 **刪除方法：** 直接刪除 `Caches` 內所有檔案即可  
@@ -44,7 +49,7 @@ tags: iOS , Xcode , IDE
 
 ## 工具推薦： 
 [App DevCleaner for Xcode](https://apps.apple.com/us/app/devcleaner-for-xcode/id1388020431)  
-![](https://i.imgur.com/54qD4vN.png =200x200)
+![](https://i.imgur.com/54qD4vN.png)
 
 非常實用的工具，可以快速清除 DeviceSupport、DerivedData、Archives 等等快取檔案。
 詳細的使用方法可以參考[彼得潘的教學](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/%E5%88%AA%E9%99%A4xcode%E4%BD%94%E6%93%9A%E7%A1%AC%E7%A2%9F%E5%A4%A7%E9%87%8F%E7%A9%BA%E9%96%93%E7%9A%84derived-data-190c85eba79)
