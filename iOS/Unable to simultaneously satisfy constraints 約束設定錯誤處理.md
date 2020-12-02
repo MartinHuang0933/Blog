@@ -55,7 +55,7 @@ Xcode其實提供了一個很方便的Debug功能，可以幫助我們迅速地�
 
 ### **STEP 2：** 點選 Xcode 下方的 Debug View Hierarchy
 
-![](https://i.imgur.com/5er5pnq.png)
+<img src="https://i.imgur.com/5er5pnq.png" width="457" height="450">
   
   這時候你會看到整個App所有View的結構，是不是很方便呢
   
@@ -77,7 +77,7 @@ UIImageView:0x7fe97b4671d0.leading == UIButton:0x7fe97b466f20.trailing + 8>
 
 接著我們去左邊Debug navigator搜尋，並以剛剛的`0x600001baebc0`過濾元件，這時候就可以很快速的找到出錯的約束了。
 
-![](https://i.imgur.com/W9FnCht.png)
+<img src="https://i.imgur.com/W9FnCht.png" width="465" height="380">
 
 
 ## 總結
