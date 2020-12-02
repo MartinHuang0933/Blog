@@ -10,7 +10,7 @@ tags: iOS
 
 
 ## Error Log
-```javascript=
+```Objective-C
 [LayoutConstraints] Unable to simultaneously satisfy constraints.
 	Probably at least one of the constraints in the following list is one you don't want. 
 	Try this: 
@@ -39,7 +39,7 @@ The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in
 
 其實在Error log中有給出很明錯錯誤的地方，那就是在log中`Will attempt to recover by breaking constraint`的下一行，就是我們要尋找的約束。  
 
-```javascript=
+```Objective-C
 // 關鍵線索
 Will attempt to recover by breaking constraint 
 <NSLayoutConstraint:0x600001baebc0 UIImageView:0x7fe97b4671d0.leading == UIButton:0x7fe97b466f20.trailing + 8>
@@ -65,7 +65,7 @@ Xcode其實提供了一個很方便的Debug功能，可以幫助我們迅速地�
 ### **STEP 3：** 找出錯誤約束的實體位址
 
 還記得剛剛我們有特別找出錯誤的約束嗎？
-```javascript=
+```Objective-C
 Will attempt to recover by breaking constraint 
 // 我們要的就是NSLayoutConstraint的實體位址0x600001baebc0
 <NSLayoutConstraint:0x600001baebc0 
