@@ -14,7 +14,7 @@ tags: iOS
 Lazy load 可以讓你可以不必關心變數創建的時機，等到真正使用到變數時才去建立，同時也可以保證在使用時一定是被初始化過的狀態，提高記憶體使用效率。  
 
 ### Objective-C 寫法
-```javascript=
+~~~ObjectiveC
 // in @interface
 @property (nonatomic, weak) UIButton *registerBtn;
 
@@ -33,7 +33,7 @@ Lazy load 可以讓你可以不必關心變數創建的時機，等到真正使�
     return _registerBtn;
 }
 
-```
+~~~
 
 ### Objective-C 實作原理、注意事項
 
@@ -46,7 +46,7 @@ Lazy load 可以讓你可以不必關心變數創建的時機，等到真正使�
 ---
 
 ### Swift 寫法
-```javascript=
+~~~swift
 // 若不進行特殊的初始化，非常簡單，只要前方加上lazy就好
 lazy var dataSource = UIButton()
 
@@ -57,7 +57,7 @@ lazy var registerBtn: UIButton = {
     button.addTarget(self, action: #selector(registerBtnClick), for: .touchUpInside)
     return button
 }()
-```
+~~~
 
 ### Swift 實作原理、注意事項
 
