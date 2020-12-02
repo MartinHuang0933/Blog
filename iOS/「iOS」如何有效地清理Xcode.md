@@ -50,6 +50,8 @@ tags: iOS , Xcode , IDE
 ## 工具推薦： 
 [App DevCleaner for Xcode](https://apps.apple.com/us/app/devcleaner-for-xcode/id1388020431)  
 
+![](https://i.imgur.com/54qD4vN.png){:height="700px" width="400px"}
+
 ![](https://i.imgur.com/54qD4vN.png =200x200)
 
 ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
