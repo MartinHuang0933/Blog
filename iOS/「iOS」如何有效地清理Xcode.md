@@ -49,7 +49,7 @@ tags: iOS , Xcode , IDE
 
 ## 工具推薦： 
 [App DevCleaner for Xcode](https://apps.apple.com/us/app/devcleaner-for-xcode/id1388020431)  
-![](https://i.imgur.com/54qD4vN.png)
+![](https://i.imgur.com/54qD4vN.png =200x200)
 
 非常實用的工具，可以快速清除 DeviceSupport、DerivedData、Archives 等等快取檔案。
 詳細的使用方法可以參考[彼得潘的教學](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/%E5%88%AA%E9%99%A4xcode%E4%BD%94%E6%93%9A%E7%A1%AC%E7%A2%9F%E5%A4%A7%E9%87%8F%E7%A9%BA%E9%96%93%E7%9A%84derived-data-190c85eba79)
